@@ -1,0 +1,31 @@
+{
+  "name": "brand-sniffer-api",
+  "version": "0.0.1",
+  "main": "dist/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulrajpal2911/brand-sniffer-api.git"
+  },
+  "author": "Rahul Rajpal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulrajpal2911/brand-sniffer-api/issues"
+  },
+  "homepage": "https://github.com/rahulrajpal2911/brand-sniffer-api#readme",
+  "description": "",
+  "dependencies": {
+    "@types/puppeteer": "^5.4.7",
+    "dotenv": "^16.4.7",
+    "puppeteer": "^23.11.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2",
+    "typescript": "^5.7.2"
+  }
+}
